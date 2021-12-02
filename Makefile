@@ -1,2 +1,2 @@
 test:
-	@(cd pystarport/tests && poetry run pytest)
+	@(cd pystarport/tests && poetry run pytest -k expansion -rvP)
